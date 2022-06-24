@@ -39,4 +39,18 @@ public class UserDAO {
  
         return user;
     }
+    public void addUser(String id,String name,String pw,String dep) throws ClassNotFoundException, SQLException {
+    	String jdbcURL = "jdbc:mysql://127.0.0.1/crud?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8";
+        String dbUser = "root";
+        String dbPassword = "giby2022";
+        Connection connection = null;
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        connection = DriverManager.getConnection(jdbcURL, dbUser, dbPassword);
+        connection.createStatement();
+        String sql="INSERT INTO user VALUES("+id+",\""+dep+"\",\""+name+"\",\""+pw+"\")";
+        PreparedStatement statement = connection.prepareStatement(sql);
+        statement.execute();
+        connection.close();
+
+    }
 }

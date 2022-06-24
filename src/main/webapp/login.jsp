@@ -15,7 +15,7 @@
 <style>
 .w3-btn{
 	width:80px;
-	border-radius: 40px;
+	border-radius: 20px;
 	border: 1px solid #fcbf49;
 }
 .w3-btn:hover {
@@ -68,10 +68,10 @@
             <input type="password" name="password" size="30" />
             <br><font face="Lucida Sans Unicode" color=#c1121f>${message}</font>
             <br>          
-            <button type="submit" name="submit" class="w3-btn"><font size="4" face="Lucida Sans Unicode">Submit</font></button>
-          
-            
-        </form>
+            <button type="submit" name="submit" class="w3-btn"><font size="4" face="Lucida Sans Unicode">Submit</font></button>        
+            </form>
+            <br>
+            <button  class="w3-btn"  onclick="location.href='signup.jsp';"><font size="4" face="Lucida Sans Unicode">Sign up</font></button>
     </div>
 
    

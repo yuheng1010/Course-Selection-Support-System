@@ -9,6 +9,7 @@
 <head>
 <meta charset="utf-8">
 <title>choice</title>
+
 </head>
 <body bgcolor="#2F302F" background="images/bg5.png"style='position: fixed; width: 1300px; left: 0%; top: 0%; margin-top: 0px; margin-left: 0px'>
 
