@@ -11,8 +11,8 @@ public class CourseDAO {
 		//private ArrayList<Course>courses=new ArrayList<Course>();
 		//private ArrayList<Course>share=new ArrayList<Course>();
 		private String url = "jdbc:mysql://127.0.0.1/crud?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8";
-		private String acc = "root";
-		private String psw = "giby2022";
+		private String acc = "";
+		private String psw = "";
 		private String sql ="";
 		private String sql2="";
 	public ArrayList<Course> searchCourse(ArrayList<String>keyword) throws SQLException, ClassNotFoundException {
